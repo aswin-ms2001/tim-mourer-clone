@@ -1,0 +1,240 @@
+.page{
+    background-color: black;
+    width: 100%;
+    height: 550px;
+    position: static;
+}
+.image-and-action{
+    width: 99.9%;
+    height: 550px;  
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url(images/timothybackground.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 900px 550px;
+  
+}
+.top-bar{
+    width: 99.9%;
+    height: 40px;
+    border-bottom: white .1px groove;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    color: red;
+    z-index: 20;
+    
+}
+.top-bar img{
+    cursor: pointer;
+}
+#case-info{
+    position: absolute;
+    left: 700px;
+    top: 505px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+.chat:hover{
+    color: rgb(212, 34, 34);
+}
+#top-heading1{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    color: #4e574d;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#top-heading1:hover{
+    color: rgb(211, 208, 208);
+}
+#top-heading2:hover{
+    color: rgb(211, 208, 208);
+}
+#top-heading3:hover{
+    color: rgb(211, 208, 208);
+}
+#top-heading4:hover{
+    color: rgb(211, 208, 208);
+}
+#top-heading2{
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    color: #4e574d;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#top-heading3{
+    position: absolute;
+    top: 20px;
+    left: 710px;
+    color: #4e574d;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#top-heading4{
+    position: absolute;
+    top: 20px;
+    left: 775px; 
+    color: #4e574d;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: sans-serif; 
+    cursor: pointer;
+}
+#the-office{
+    position: absolute;
+    left: 30px;
+    top: 370px;
+    font-size: 1.66rem;
+    font-family: sans-serif;
+    font-weight: 560;
+    color: #4e574d;    
+}
+#info{
+    position: absolute;
+    left: 34px;
+    top: 400px;
+    font-size: 1.66rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: #ffffff;     
+}
+#view-profile{
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #6c706c;
+    font-size: 12px;
+    cursor: pointer;
+}
+#view-profile:hover{
+    color: #1e251d;
+}
+#message{
+    font-size: 1.66rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #6c706c;
+    padding-left: 40px;   
+}
+
+button{
+    background-color: #79797980;
+    
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    border: white .01px groove;
+    cursor: pointer;
+
+}
+#button1{
+    position: absolute;
+    left: 34px;
+    top: 500px; 
+}
+#button2{
+    position: absolute;
+    left: 1150px;
+    top: 500px;
+}
+button:hover{
+    background-color: transparent;
+    transition: background-color .7s ease;
+
+}
+.profile{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+
+}
+.about{
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    border: rgba(67, 71, 59, 0.966) groove .5px;
+    height: 350px;
+    width: 100%;
+
+}
+.show-line{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e251da6;
+    font-size: 15px;
+    position: absolute;
+}
+.items{
+    position: absolute;
+    top:30px;
+    left: 1000px;
+    color: #5b6459a6;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.item:hover{
+    color: black;
+}
+.last{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+}
+#first-last{
+    position: absolute;
+    top: 0px;
+    left: 44px;
+    width: 180px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #5b6459a6;
+    
+}
+#second-last{
+    position: absolute;
+    top: 0px;
+    left: 850px;
+    width: 140px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #5b6459a6;
+}
+#third-last{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #5b6459a6;
+}
+body{
+    margin: 0px;
+}
